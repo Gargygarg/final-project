@@ -1,0 +1,119 @@
+body{background-color: #8A8C3E}
+.container {
+    display: grid;
+    grid-template-rows: repeat(11,1fr);
+    grid-template-columns: repeat(25, 1fr);
+    gap: 10px;
+    height: 300vh;
+    background-color: #8A8C3E
+    ;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: #52591C;
+    opacity: 90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+    background: linear-gradient(to top,rgb(26, 124, 13), rgba(81, 255, 0, 0.74));
+    background-clip: text;
+    color: transparent;
+
+}
+.navbar{
+    float: right;
+    margin-left: 10px;
+    z-index: 10000;
+}
+.logo{
+    font-size: 25 px;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box1{
+    grid-area: 1/1/4/26;
+    background-color: blueviolet;
+    background-image: url(IMG_20230729_162713.jpg);
+    background-size: cover;
+}
+#box2{
+    grid-area: 4/1/4/26;
+    background-color: #8A8C3E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: center;
+}
+#box3{
+    grid-area: 5/1/8/13;
+    background-image: url(IMG_20230729_163109.jpg);
+    background-size: cover;
+}
+#box4{
+    grid-area: 8/1/8/26;
+    background-color: #8A8C3E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: center;
+}
+#box5{
+    grid-area: 9/1/12/26;
+    background-image: url(PXL_20240514_182144859.jpg);
+    background-size: cover;
+}
+#box6{
+    grid-area: 5/14/8/26;
+    background-image: url(IMG_20200807_211456.jpg);
+    background-size: cover;
+}
+#box7{
+    grid-area: 9/13/12;
+    background-color: #8A8C3E;
+}
+#box8{
+    grid-area: 9/6/12;
+    background-color: #8A8C3E;
+}
+#box9{
+    grid-area: 9/20/12;
+    background-color: #8A8C3E;
+}
+#box10{
+    grid-area: 1/13/4;
+    background-color: #8A8C3E;
+}
+#box11{
+    grid-area: 1/6/4;
+    background-color: #8A8C3E;
+}
+#box12{
+    grid-area: 1/20/4;
+    background-color: #8A8C3E;
+}
+
+#booger{
+    text-align: center;
+    font-style: bold;
+    margin: 30px;
+    font-size: 2em;
+}
+.navbar a:hover{
+    color: darkgreen;
+}
+.navbar:hover {
+    color: black;
+}

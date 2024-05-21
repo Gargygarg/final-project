@@ -1,0 +1,163 @@
+body{background-color: #394A59}
+.container {
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    height: 400vh;
+    background-color: #687E8C
+    ;
+}
+
+#box1{
+    background-color: rgb(244, 241, 222);
+    grid-area: 4/1/1/7;
+    background-image: url(DSC_0009.JPG);
+    background-size: cover;
+    text-align: center;
+}
+
+#box2{
+    background-color: #759CBF;
+    grid-area: 10/1/10/4;
+}
+
+
+
+#box4{
+    background-color: #687E8C;
+    grid-area: 5/1/4/7;
+}
+
+#box5{
+    background-color: #94A6A6;
+    grid-area: 5/1/5/4
+}
+
+#box6{
+    background-color: #D96E30;
+    grid-area: 10/2/10/6;
+}
+
+#box7{
+    background-color: rgb(61, 64, 91);
+    background-image: url(Snapchat-52332087.jpg);
+    background-size: cover;
+    grid-area: 8/2/10/6;
+}
+
+#box8{
+    background-color: #B4B8BF;
+    grid-area: 5/4/5/7;
+}
+
+#box9{
+    background-color: rgb(129, 178, 154);
+    background-image: url(PXL_20240502_172804538.jpg);
+    background-size: cover;
+    grid-area: 6/4/8/7;
+}
+
+#box10{
+    background-image: url(Snapchat-1832766130.jpg);
+    background-size: cover;
+    grid-area: 6/1/8/4;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', serif;
+}
+
+
+#gorgi{
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    background: linear-gradient(to top,rgb(104, 102, 102), rgb(0, 0, 0));
+    background-clip: text;
+    color: transparent;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: rgb(61, 64, 91);
+    opacity: 90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+    background: linear-gradient(to top,rgb(129, 103, 15), rgb(196, 147, 15));
+    background-clip: text;
+    color: transparent;
+
+}
+.navbar{
+    float: right;
+    margin-left: 10px;
+    
+}
+.logo{
+    font-size: 25 px;
+    color: gold;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.door{
+    background-color: black;
+    border: solid 1px black;
+    margin: 30px; 
+}
+#nested{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#Title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+#blah{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+.bore{
+    background-color: black;
+    border: solid 2px black;
+    margin: 20px; 
+}
+#dookie{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+}
+#boondocks{
+    text-align: center;
+    font-style: bold;
+    margin: 50px;
+    font-size: 2em;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.navbar:hover {
+    color: black;
+}

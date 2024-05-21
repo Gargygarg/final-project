@@ -1,0 +1,109 @@
+body{background-color: #394A59}
+.container {
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(23, 1fr);
+    gap: 10px;
+    height: 400vh;
+    background-color: #394A59
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: lightblue;
+    opacity: 90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+    background: linear-gradient(to top,rgb(0, 0, 0), rgb(18, 112, 150));
+    background-clip: text;
+    color: transparent;
+
+}
+.navbar{
+    float: right;
+    margin-left: 10px;
+    z-index: 10000;
+}
+.logo{
+    font-size: 25 px;
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box1{
+    background-image: url(PXL_20240502_170714331.MP.jpg);
+    background-color: white;
+    background-size: cover;
+    grid-area: 1/1/6/24;
+}
+#box2{
+    background-color: lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    grid-area: 1/1/1/24;
+    margin: 70px;
+    padding: 6px;
+    border-radius: 20px;
+
+}
+#box3{
+    background-color: white;
+    grid-area: 9/2/6/12;
+    background-image: url(PXL_20231018_090923947.jpg);
+    background-size: cover;
+}
+
+#box5{
+    background-color: white;
+    grid-area: 9/13/6/23;
+    background-image: url(PXL_20231019_152734132.jpg);
+    background-size: cover;
+}
+#box6{
+    background-color: white;
+    grid-area: 13/2/10/12;
+    background-image: url(PXL_20240502_172804538.jpg);
+    background-size: cover;
+}
+#box7{
+    background-color: white;
+    grid-area: 13/13/10/23;
+    background-image: url(IMG_20200808_205622~2.jpg);
+    background-size: cover;
+}
+
+#box9{
+    background-color: #84B1D9;
+    grid-area: 9/1/9/24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 50;
+    text-align: center;
+
+}
+#booger{
+    text-align: center;
+    font-style: bold;
+    margin: 30px;
+    font-size: 2em;
+}
+.navbar a:hover{
+    color: lightseagreen;
+}
+.navbar:hover {
+    color: black;
+}

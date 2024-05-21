@@ -1,0 +1,117 @@
+body{background-color: #59200B}
+.container {
+    display: grid;
+    grid-template-rows: repeat(14,1fr);
+    grid-template-columns: repeat(22, 1fr);
+    gap: 10px;
+    height: 400vh;
+    background-color: #D96E30
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: #BF522A;
+    opacity: 90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+    background: linear-gradient(to top,rgb(0, 0, 0), rgb(255, 0, 0));
+    background-clip: text;
+    color: transparent;
+
+}
+.navbar{
+    float: right;
+    margin-left: 10px;
+    z-index: 10000;
+}
+.logo{
+    font-size: 25 px;
+    color: bisque;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar:hover {
+    color: black;
+}
+#box1{
+    background-image: url(Snapchat-463971534.jpg);
+    background-color: white;
+    background-size: cover;
+    grid-area: 1/1/5/23;
+}
+#box2{
+    background-color: #BF8049;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    grid-area: 1/1/1/23;
+    margin: 70px;
+    padding: 6px;
+    border-radius: 20px;
+}
+#box3{
+    background-color: white;
+    grid-area: 6/9/10/23;
+    background-image: url(Snapchat-660577694.jpg);
+    background-size: cover;
+}
+
+#box4{
+    background-color: white;
+    grid-area: 6/1/8/9;
+    background-image: url(PXL_20240516_2035190901.jpg);
+    background-size: cover;
+}
+#box5{
+    background-color: white;
+    grid-area: 11/1/15/23;
+    background-image: url(PXL_20240417_174548265.jpg);
+    background-size: cover;
+}
+
+#box6{
+    background-color: white;
+    grid-area: 8/1/10/9;
+    background-image: url(PXL_20240514_181609431.MP.jpg);
+    background-size: cover;
+}
+#box7{
+    grid-area: 10/1/11/23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: center;
+    background-color: #BF522A;
+
+
+}
+#box8{
+    grid-area: 5/1/6/23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: center;
+    background-color: #BF522A;
+}
+#booger{
+    text-align: center;
+    font-style: bold;
+    margin: 10px;
+    font-size: 2em;
+}

@@ -1,0 +1,72 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: #928e8c;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+    background: linear-gradient(to top,rgb(136, 118, 118), rgb(255, 0, 0));
+    background-clip: text;
+    color: transparent;
+
+}
+.navbar{
+    float: right;
+    margin-left: 10px;
+    z-index: 10000;
+}
+.logo{
+    font-size: 25 px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a:hover{
+    color: rgb(59, 43, 43);
+}
+.navbar:hover {
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.contact-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info a {
+    color: #007bff;
+}
+.contact-info a:hover {
+    color: black;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8f7a7a;
+}
